@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PUSHER — Your Trainer in Your Pocket</title>
+  <meta name="description" content="PUSHER tells you what to do today — and calls you out if you don't. Workout tracker, recovery engine, and coach in one app." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="home">
+  <main class="card" aria-labelledby="app-title">
+    <div class="language-switch" aria-label="Language selector"></div>
+
+    <img class="app-icon" src="logo.png" alt="PUSHER app icon" width="110" height="110" />
+
+    <h1 id="app-title">PUSHER</h1>
+    <p id="tagline">Your Trainer in Your Pocket</p>
+
+    <nav class="links" aria-label="Main links">
+      <a class="primary" id="download-link" href="#">Download on the App Store</a>
+      <a class="secondary" data-page-link="privacy" href="page.html?p=privacy">Privacy Policy</a>
+      <a class="secondary" data-page-link="terms" href="page.html?p=terms">Terms &amp; Conditions</a>
+      <a class="secondary" id="support-link" href="https://www.instagram.com/pusher_app">Support · @pusher_app</a>
+    </nav>
+  </main>
+
+  <script>
+    const LOCALES = {
+      en: {
+        tag: 'Workout tracker, recovery engine & coach. Lift. Move. Sleep. Repeat.',
+        download: 'Download on the App Store',
+        privacy: 'Privacy Policy',
+        terms: 'Terms & Conditions',
+        support: 'Support · @pusher_app',
+        language: 'Language',
+      },
+      cs: {
+        tag: 'Tréninkový deník, regenerace a trenér v jedné aplikaci. Lift. Move. Sleep. Repeat.',
+        download: 'Stáhnout v App Storu',
+        privacy: 'Zásady ochrany soukromí',
+        terms: 'Obchodní podmínky',
+        support: 'Podpora · @pusher_app',
+        language: 'Jazyk',
+      },
+    };
+
+    const SUPPORTED_LANGS = ['en', 'cs'];
+    const LANGUAGE_LABELS = { en: 'EN', cs: 'CZ' };
+    const DEFAULT_LANG = 'en';
+
+    const params = new URLSearchParams(location.search);
+    const detectedLang = (navigator.language || DEFAULT_LANG).slice(0, 2).toLowerCase();
+    const initialLang = params.get('lang') || localStorage.getItem('pusher_lang') || detectedLang;
+    let lang = SUPPORTED_LANGS.includes(initialLang) ? initialLang : DEFAULT_LANG;
+
+    function setLang(nextLang) {
+      lang = SUPPORTED_LANGS.includes(nextLang) ? nextLang : DEFAULT_LANG;
+      localStorage.setItem('pusher_lang', lang);
+      document.documentElement.lang = lang;
+
+      const t = LOCALES[lang];
+      document.getElementById('tagline').textContent = t.tag;
+      document.getElementById('download-link').textContent = t.download;
+      document.querySelector('[data-page-link="privacy"]').textContent = t.privacy;
+      document.querySelector('[data-page-link="terms"]').textContent = t.terms;
+      document.getElementById('support-link').textContent = t.support;
+
+      document.querySelectorAll('[data-page-link]').forEach(link => {
+        link.href = `page.html?p=${link.dataset.pageLink}&lang=${lang}`;
+      });
+
+      history.replaceState(null, '', `?lang=${lang}`);
+      renderLanguageSwitch();
+    }
+
+    function renderLanguageSwitch() {
+      document.querySelector('.language-switch').innerHTML = SUPPORTED_LANGS.map(code =>
+        `<button type="button" class="${code === lang ? 'active' : ''}" data-lang="${code}">${LANGUAGE_LABELS[code]}</button>`
+      ).join('');
+      document.querySelectorAll('[data-lang]').forEach(btn => {
+        btn.addEventListener('click', () => setLang(btn.dataset.lang));
+      });
+    }
+
+    setLang(lang);
+  </script>
+</body>
+</html>
