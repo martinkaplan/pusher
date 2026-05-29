@@ -3,10 +3,11 @@ const DEFAULT_LANG = 'en';
 const PAGE_TITLES = {
   privacy: { en: 'Privacy Policy', cs: 'Zásady ochrany soukromí' },
   terms:   { en: 'Terms & Conditions', cs: 'Obchodní podmínky' },
+  faq:     { en: 'FAQ', cs: 'FAQ' },
 };
 
 const params = new URLSearchParams(location.search);
-const page = ['privacy', 'terms'].includes(params.get('p')) ? params.get('p') : 'privacy';
+const page = ['privacy', 'terms', 'faq'].includes(params.get('p')) ? params.get('p') : 'privacy';
 const detectedLang = (navigator.language || DEFAULT_LANG).slice(0, 2).toLowerCase();
 let lang = params.get('lang') || localStorage.getItem('pusher_lang') || detectedLang;
 lang = SUPPORTED_LANGS.includes(lang) ? lang : DEFAULT_LANG;

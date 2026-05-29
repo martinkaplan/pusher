@@ -20,6 +20,7 @@
       <a class="primary" id="download-link" href="#">Download on the App Store</a>
       <a class="secondary" data-page-link="privacy" href="page.html?p=privacy">Privacy Policy</a>
       <a class="secondary" data-page-link="terms" href="page.html?p=terms">Terms &amp; Conditions</a>
+      <a class="secondary" data-page-link="faq" href="page.html?p=faq">FAQ</a>
       <a class="secondary" id="support-link" href="https://www.instagram.com/pusher_app">Support · @pusher_app</a>
     </nav>
   </main>
@@ -31,6 +32,7 @@
         download: 'Download on the App Store',
         privacy: 'Privacy Policy',
         terms: 'Terms & Conditions',
+        faq: 'FAQ',
         support: 'Support · @pusher_app',
         language: 'Language',
       },
@@ -39,6 +41,7 @@
         download: 'Stáhnout v App Storu',
         privacy: 'Zásady ochrany soukromí',
         terms: 'Obchodní podmínky',
+        faq: 'FAQ',
         support: 'Podpora · @pusher_app',
         language: 'Jazyk',
       },
@@ -63,6 +66,7 @@
       document.getElementById('download-link').textContent = t.download;
       document.querySelector('[data-page-link="privacy"]').textContent = t.privacy;
       document.querySelector('[data-page-link="terms"]').textContent = t.terms;
+      document.querySelector('[data-page-link="faq"]').textContent = t.faq;
       document.getElementById('support-link').textContent = t.support;
 
       document.querySelectorAll('[data-page-link]').forEach(link => {

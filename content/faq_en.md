@@ -1,43 +1,40 @@
 # FAQ
 
-## What is Pan-da?
-Pan-da is an app for developing vocabulary in children with expressive speech delay. Using picture flashcards, phrases, and games, it helps children learn new words and sentences in a playful way.
+## What is PUSHER?
+PUSHER is a fitness tracking and coaching app for iOS. It tracks workouts, sleep, supplements, medications, and body measurements — and gives you a daily coaching message based on your full data picture. No fluff, no motivation quotes. Just what you need to do.
 
-## Who is the app for?
-The app is designed for preschool children (ages 3–6) with expressive expressive speech delay. It can be used by parents, speech therapists, and kindergarten teachers.
+## Is it free?
+PUSHER is free to download on the App Store.
 
-## How does the Repeat mode work?
-In Repeat mode, flashcards are shown one by one. Tap a card to hear the word spoken aloud. Use the left and right arrows to move between cards. The exercise is complete once the child has gone through all the cards in the category.
+## Does PUSHER require an account?
+No. There are no accounts, no sign-ups, and no servers. All your data stays on your device. Optional iCloud sync works through your existing Apple ID.
 
-## How does the Find mode work?
-In Find mode, a word is shown at the top and the child must find the matching image from a set of pictures. The exercise is complete once the child correctly identifies all cards in the category. A reward sound plays on each correct answer.
+## What does the coach card do?
+The coach card on the Today screen analyzes your recent training frequency, sleep, steps, recovery, and active injuries — then gives you one direct sentence every morning. It detects patterns like missing workouts, poor sleep, over-training, or forming bad habits, and links to the relevant principle from the 10 Principles.
 
-## How does the Sounds mode work?
-In Sounds mode, the child hears a real animal or object sound and must pick the correct image. It trains auditory discrimination. This mode is only available for categories that have sound files.
+## What is the muscle map?
+The muscle map shows the recovery state of each muscle group as a color gradient — green (recovered) through yellow and orange to red (fatigued). It is based on your actual completed sets, weighted by set type and intensity, with decay over time. Sleep, HRV, and wellness events (sauna, ice bath) affect the map.
 
-## How does the Phrases mode work?
-In Phrases mode, the child browses cards with short sentences. Each card has 5 sentences that help practice the word in different contexts — naming, describing, expressing preference, and more.
+## What are Hard Sets?
+A Hard Set is any set performed at ≤4 RIR (Reps in Reserve) — meaning close to failure. You mark any set as hard with the (H) toggle. PUSHER tracks weekly hard set count per muscle group, which is the most reliable predictor of hypertrophy stimulus.
 
-## How does Memory work?
-Memory is a matching game. Cards are shown face down. Tap to flip a card. The goal is to find all matching pairs. The exercise is complete when all pairs are found.
+## What is the Discipline Rank?
+The Discipline Rank is a long-term consistency score earned by completing Monthly Specialization phases. A phase requires 28+ days in a chosen specialization with ≥70% daily quests completed. There are 10 ranks from Rookie to Grandmaster — roughly a 4-year journey. You cannot fake it: HealthKit and your workout log are the judges.
 
-## In what order do modes unlock?
-Repeat is always available first. Completing it unlocks Find. Completing Find unlocks Sounds, Phrases, and Memory.
+## What is Monthly Specialization?
+Each month you pick one training focus: Basics, Fat Burn, Hypertrophy, Max Strength, or Performance. Each specialization links to relevant protocols and unlocks specific daily and weekly quests. Completing the phase with enough quest completions advances your Discipline Rank.
 
-## How do I change the language?
-In Settings (gear icon), you can switch between Czech and English. This changes both the app text and the pronunciation when words are spoken aloud.
+## What is the Strength Score?
+The Strength Score is a normalized 0–100 score based on your e1RM-to-bodyweight ratios for Squat, Bench Press, and Deadlift, compared against Nuckols strength standards across 6 levels. It updates automatically when you set new PRs. Military ranks from Recruit to General.
 
-## How do I add custom cards?
-In Settings, under Family Cards or Classmates, you can add photos from your camera or photo library. These categories are designed for practising the names of familiar people.
+## Does it work with Apple Watch?
+Yes. The Apple Watch companion shows a live workout view — exercises, sets, rest timer with circular progress ring, heart rate, and active calories. You can check off sets and finish the workout from your wrist. Always On Display shows a dim summary when your wrist is lowered.
 
-## How do I hide a category or card?
-In Parental Settings (locked section) you can enable or disable entire categories. Inside a category you can also hide individual cards that the child is not ready for yet.
+## Does PUSHER sync with Apple Health?
+Yes. PUSHER reads steps, sleep, resting heart rate, HRV, and body weight from Apple Health. It can also write workouts and body weight back. You can import past workouts from Apple Health into your training log.
 
-## What are the daily statistics?
-Tap the progress bar on the main screen to see a day-by-day overview — which categories the child practised, which mode they played, and how well they did. The history is saved and never deleted.
+## Where is my data stored?
+All data is stored locally on your device. If you enable iCloud, it syncs encrypted across your own devices via Apple's CloudKit. No data is sent to our servers — we don't have any.
 
-## What does the green checkmark on a category mean?
-The green checkmark means the child has completed at least one exercise in that category today. Daily progress resets each day, but the full history is kept.
-
-## Do you have tips for parents?
-Practice regularly but briefly — 5 to 10 minutes a day is enough. Praise every attempt. Alternate between modes to keep it fun. Name the pictures together and make up your own sentences.
+## How do I contact support?
+Instagram: [@pusher_app](https://www.instagram.com/pusher_app) or email: pusher.developer@gmail.com

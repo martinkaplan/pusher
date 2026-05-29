@@ -1,43 +1,40 @@
 # FAQ
 
-## Co je Pan-da?
-Pan-da je aplikace pro rozvoj slovní zásoby dětí s expresivním opožděním řeči. Pomocí obrázkových kartiček, frází a her pomáhá dětem učit se nová slova a věty hravou formou.
+## Co je PUSHER?
+PUSHER je iOS aplikace pro sledování tréninku a koučování. Sleduje tréninky, spánek, suplementy, léky a tělesná měření — a každý den vám dá coachingovou zprávu na základě vašich dat. Žádné prázdné fráze. Jen co potřebujete udělat.
 
-## Pro koho je aplikace určena?
-Aplikace je určena pro předškolní děti (3–6 let) s expresivní expresivním opožděním řeči. Mohou ji využívat rodiče, logopedi i učitelé v mateřských školách.
+## Je aplikace zdarma?
+PUSHER je ke stažení v App Storu zdarma.
 
-## Jak funguje režim Opakuj?
-V režimu Opakuj se zobrazují kartičky jedna po druhé. Klepnutím na kartičku si dítě poslechne slovo. Šipkami vlevo a vpravo se přesunuje na další kartičku. Cvičení je hotové, jakmile dítě projde všechny kartičky v kategorii.
+## Potřebuji účet?
+Ne. Žádné účty, žádná registrace, žádné servery. Všechna vaše data zůstávají na vašem zařízení. Volitelná synchronizace přes iCloud funguje přes váš stávající Apple ID.
 
-## Jak funguje režim Najdi?
-V režimu Najdi se zobrazí slovo nahoře a sada obrázků. Dítě musí najít správný obrázek. Cvičení je hotové, jakmile dítě správně identifikuje všechny kartičky v kategorii. Při správné odpovědi se ozve zvuk odměny.
+## Co dělá karta trenéra?
+Karta trenéra na obrazovce Dnes analyzuje vaši nedávnou frekvenci tréninku, spánek, kroky, regeneraci a aktivní zranění — a každé ráno vám dá jednu přímou větu. Detekuje vzorce jako vynechané tréninky, špatný spánek, přetrénování nebo formování špatných návyků, a odkazuje na příslušný princip z 10 principů.
 
-## Jak funguje režim Zvuky?
-V režimu Zvuky uslyší dítě skutečný zvuk zvířete nebo předmětu a musí vybrat správný obrázek. Jde o trénink sluchového rozlišování. Tento mód je dostupný jen u kategorií, kde jsou zvuky k dispozici.
+## Co je mapa svalů?
+Mapa svalů zobrazuje stav regenerace každé svalové skupiny jako barevný přechod — zelená (zotaveno) přes žlutou a oranžovou až po červenou (únava). Vychází z vašich skutečně dokončených sérií, vážených typem série a intenzitou, s postupným poklesem v čase. Spánek, HRV a wellness události (sauna, ledová koupel) mapu ovlivňují.
 
-## Jak funguje režim Fráze?
-V režimu Fráze si dítě prohlíží kartičky s krátkými větami. Každá kartička má 5 vět, které pomáhají procvičovat slovo v různých kontextech — pojmenování, popis, oblíbení a další.
+## Co jsou těžké série?
+Těžká série je jakákoli série provedená s ≤4 RIR (Reps in Reserve) — tedy blízko selhání. Označíte ji přepínačem (H). PUSHER sleduje týdenní počet těžkých sérií na svalovou skupinu, což je nejspolehlivější prediktor hypertrofického stimulu.
 
-## Jak funguje Pexeso?
-Pexeso je paměťová hra. Kartičky jsou zobrazeny lícem dolů. Klepnutím se kartička otočí. Cílem je najít všechny páry. Po nalezení všech párů je cvičení hotové.
+## Co je Disciplinární hodnost?
+Disciplinární hodnost je dlouhodobé skóre konzistence získané dokončováním měsíčních specializačních fází. Fáze vyžaduje 28+ dní ve zvolené specializaci s ≥70 % denních questů splněných. Existuje 10 hodností od Zelenáče po Velmistra — přibližně 4 roky cesty. Nejde to podvést: Apple Health a váš tréninkový deník jsou soudci.
 
-## V jakém pořadí se odemykají módy?
-Začíná se vždy s Opakuj. Po dokončení se odemkne Najdi. Po dokončení Najdi se odemknou Zvuky, Fráze a Pexeso.
+## Co je měsíční specializace?
+Každý měsíc si vyberete jeden tréninkový zaměření: Základy, Spalování, Hypertrofie, Max síla nebo Výkon. Každá specializace odkazuje na relevantní protokoly a odemyká specifické denní a týdenní questy. Dokončení fáze s dostatkem splněných questů posouvá vaši Disciplinární hodnost.
 
-## Jak změním jazyk?
-V nastavení (ikona ozubeného kola) můžete přepnout mezi češtinou a angličtinou. Změní se texty v aplikaci i výslovnost při přehrávání slov.
+## Co je Silové skóre?
+Silové skóre je normalizované skóre 0–100 na základě poměrů e1RM k tělesné hmotnosti pro Dřep, Bench press a Mrtvý tah, porovnané s Nuckols standardy na 6 úrovních. Aktualizuje se automaticky při novém PR. Vojenské hodnosti od Rekruta po Generála.
 
-## Jak přidám vlastní kartičky?
-V nastavení v sekci Rodinné kartičky nebo Spolužáci můžete přidat fotografie z telefonu nebo galerie. Tyto kategorie jsou určené pro procvičování jmen blízkých osob.
+## Funguje aplikace s Apple Watch?
+Ano. Companion pro Apple Watch zobrazuje živý přehled tréninku — cviky, série, odpočítávač odpočinku s kruhovým ukazatelem, tepovou frekvenci a aktivní kalorie. Série lze odškrtnout a trénink ukončit z hodinek. Always On Display zobrazuje zkrácený přehled při spuštěném zápěstí.
 
-## Jak skryji kategorii nebo kartičku?
-V Rodičovském nastavení (zamčená sekce) můžete zapínat a vypínat celé kategorie. V detailu kategorie pak lze skrýt jednotlivé kartičky, které dítě ještě nezná.
+## Synchronizuje se PUSHER s Apple Health?
+Ano. PUSHER čte kroky, spánek, klidovou tepovou frekvenci, HRV a tělesnou hmotnost z Apple Health. Může také zpět zapisovat tréninky a tělesnou hmotnost. Z Apple Health lze importovat minulé tréninky do tréninkového deníku.
 
-## Co jsou denní statistiky?
-Po klepnutí na ukazatel pokroku na hlavní obrazovce se zobrazí přehled her po dnech — které kategorie dítě procvičovalo, jaký mód hrálo a jak mu šlo. Historie se ukládá a nikdy se nesmaže.
+## Kde jsou uložena moje data?
+Všechna data jsou uložena lokálně na vašem zařízení. Pokud povolíte iCloud, synchronizují se šifrovaně přes vaše vlastní zařízení pomocí Apple CloudKit. Žádná data se neposílají na naše servery — žádné nemáme.
 
-## Co znamená zelená fajfka na kategorii?
-Zelená fajfka znamená, že dítě dnes v dané kategorii dokončilo alespoň jedno cvičení. Denní pokrok se každý den automaticky resetuje, ale history zůstává.
-
-## Máte tipy pro rodiče?
-Procvičujte pravidelně, ale krátce — 5 až 10 minut denně stačí. Chvalte dítě za každý pokus. Střídejte režimy, aby byla hra pestrá. Pojmenovávejte obrázky společně a tvořte vlastní věty.
+## Jak kontaktovat podporu?
+Instagram: [@pusher_app](https://www.instagram.com/pusher_app) nebo e-mail: pusher.developer@gmail.com
